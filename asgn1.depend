@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1366996487 source:k:\users\jacksane\desktop\c++\asgn1\include\random.cpp
+	<cstdlib>
+	<ctime>
+	"random.h"
+
+1367128265 k:\users\jacksane\desktop\c++\asgn1\include\random.h
+
+1367128403 source:k:\users\jacksane\desktop\c++\asgn1\src\pokereval.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<vector>
+	<algorithm>
+	"../include/random.h"
+	"../include/Deck.h"
+	"../include/Card.h"
+	"../include/Hand.h"
+	"../include/HandComparer.h"
+
+1367128592 source:k:\users\jacksane\desktop\c++\asgn1\src\card.cpp
+	"../include/Card.h"
+
+1367128865 k:\users\jacksane\desktop\c++\asgn1\include\card.h
+	<string>
+
+1367128543 source:k:\users\jacksane\desktop\c++\asgn1\src\deck.cpp
+	"../include/Deck.h"
+
+1367128542 k:\users\jacksane\desktop\c++\asgn1\include\deck.h
+	<iostream>
+	<iomanip>
+	"../include/Card.h"
+	"../include/random.h"
+
+1367128658 source:k:\users\jacksane\desktop\c++\asgn1\src\hand.cpp
+	"../include/Hand.h"
+
+1367128666 k:\users\jacksane\desktop\c++\asgn1\include\hand.h
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<stdio.h>
+	<math.h>
+	"../include/CardComparer.h"
+	"../include/Card.h"
+
+1367128340 source:k:\users\jacksane\desktop\c++\asgn1\src\cardcomparer.cpp
+	"../include/CardComparer.h"
+
+1367128338 k:\users\jacksane\desktop\c++\asgn1\include\cardcomparer.h
+	"../include/Card.h"
+
+1367128318 source:k:\users\jacksane\desktop\c++\asgn1\src\handcomparer.cpp
+	"../include/HandComparer.h"
+
+1367128347 k:\users\jacksane\desktop\c++\asgn1\include\handcomparer.h
+	"../include/Hand.h"
+
+1366980223 source:k:\users\jacksane\desktop\c++\asgn1\src\equalhandcomparer.cpp
+	"../include/EqualHandComparer.h"
+
+1366979112 k:\users\jacksane\desktop\c++\asgn1\include\equalhandcomparer.h
+	"../include/Hand.h"
+
+1367128342 source:k:\users\jacksane\desktop\c++\asgn1\src\random.cpp
+	<cstdlib>
+	<ctime>
+	"../include/random.h"
+
